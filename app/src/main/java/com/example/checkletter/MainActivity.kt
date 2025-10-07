@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.checkletter.ui.AlphabetExpScreen
+import com.example.checkletter.ui.ImageExpScreen
 import com.example.checkletter.ui.theme.CheckLetterTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -22,7 +23,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             CheckLetterTheme {
-                AlphabetExpScreen()
+                // change the image screen here
+                ImageExpScreen()
+//                AlphabetExpScreen()
             }
         }
     }
